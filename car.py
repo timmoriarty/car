@@ -31,7 +31,6 @@ class Car:
 if __name__ == '__main__':
 
     my_car = Car()
-    print("I'm a car!")
     while True:
         action = input("Please enter choice? [A]ccelerate, [B]rake, "
                  "show [O]dometer, or show average [S]peed?").upper()
